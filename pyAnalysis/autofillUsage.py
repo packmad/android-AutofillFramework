@@ -16,7 +16,7 @@ def analyze_apk(apk_path):
     manifest = str(etree.tostring(apk.get_android_manifest_xml(), pretty_print=True, encoding="utf-8"))
     BAS = "BIND_AUTOFILL_SERVICE"
     if BAS in manifest:
-        print("[p]", BAS, " permission found in manifest of '{}'".format(apk_path))
+        print("[p]", BAS, "permission")
 
     archive = zipfile.ZipFile(apk_path, 'r')
     for name, type in apk.get_files_types().items():
@@ -25,7 +25,7 @@ def analyze_apk(apk_path):
             match = autofill_re.search(bindata)
             if match is not None:
                 match_str = match.group().decode("utf-8")
-                print("[t]", match_str, "found in '{}' of '{}'".format(name, apk_path))
+                print("[a]", match_str, 'in "{}"'.format(name))
     print("\n")
 
 
