@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/usr/local/google/home/benweiss/Android/pi-dev/developers/build/prebuilts/gradle/AutofillFramework/afservice/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "/home/simo/gitProj/android-AutofillFramework/afservice/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/usr/local/google/home/benweiss/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha1.aar/c05028a6d48feb825ed288e49596b8db/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/home/simo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-alpha1.aar/0358b9cceb8d7daca53784ce735fff32/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

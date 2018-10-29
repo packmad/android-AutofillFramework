@@ -1,4 +1,7 @@
-#Wed Oct 24 14:59:06 BST 2018
-base.0=/usr/local/google/home/benweiss/Android/pi-dev/developers/build/prebuilts/gradle/AutofillFramework/afservice/build/intermediates/transforms/dexMerger/debug/0
+#Mon Oct 29 10:00:10 CET 2018
+base.0=/home/simo/gitProj/android-AutofillFramework/afservice/build/intermediates/transforms/dexMerger/debug/0
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=/home/simo/gitProj/android-AutofillFramework/afservice/build/intermediates/transforms/dexMerger/debug/1
